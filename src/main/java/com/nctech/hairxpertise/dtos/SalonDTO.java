@@ -42,4 +42,60 @@ public class SalonDTO {
      * The physical address of the salon.
      */
     private String address;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getSaloonName() {
+        return saloonName;
+    }
+
+    public void setSaloonName(String saloonName) {
+        this.saloonName = saloonName;
+    }
+
+    public AdminDTO getAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(AdminDTO admin) {
+        this.admin = admin;
+    }
+
+    public Integer getEmpNo() {
+        return empNo;
+    }
+
+    public void setEmpNo(Integer empNo) {
+        this.empNo = empNo;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
