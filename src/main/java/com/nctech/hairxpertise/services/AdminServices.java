@@ -1,13 +1,12 @@
-package services;
+package com.nctech.hairxpertise.services;
 
-import dtos.AdminDTO;
+import com.nctech.hairxpertise.dtos.AdminDTO;
 
 import java.util.List;
 
 public interface AdminServices {
     // all are abstrac method
     public void save(AdminDTO admin);
-    public void print(AdminDTO... admin);
     public AdminDTO findById(long id);
     public List<AdminDTO> findAll();
     public void update (AdminDTO admin);

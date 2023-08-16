@@ -1,4 +1,4 @@
-package dtos;
+package com.nctech.hairxpertise.dtos;
 
 public class AdminDTO {
 
@@ -40,7 +40,7 @@ public class AdminDTO {
     public void setAxperianceInYear(int axperianceInYear) {
         this.axperianceInYear = axperianceInYear;
     }
-    public int getId() {
+    public int getId(AdminDTO admin) {
         return id;
     }
 
@@ -49,7 +49,7 @@ public class AdminDTO {
     }
 
 
-
-
-
+    public int getId() {
+        return id;
+    }
 }
